@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(226, 198, 182);
+}
+
+h1 {
+    color: rgb(8, 40, 99);
+    background-color: antiquewhite;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#red {
+    color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+ul>li {
+    color:rgb(84, 14, 196);
+}
