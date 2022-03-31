@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(226, 198, 182);
+    background-color: rgba(210, 15, 64, 0.588);
 }
 
 h1 {
     color: rgb(8, 40, 99);
-    background-color: antiquewhite;
+    background-color: rgb(165, 39, 39);
 }
 
 
@@ -23,7 +23,7 @@ a {
 ul>li {
     color:rgb(84, 14, 196);
 }
-figure {
+/*figure {
     float: center;
     width: 70% ;
     height: 80%;
@@ -34,7 +34,8 @@ figure {
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
-  }
+  }*/
   img.scaled {
     width: 100%;
+    align-content: center;
   }
