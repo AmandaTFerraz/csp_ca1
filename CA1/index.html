@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="author" content="wikipedia">
-        <meta name="description" content="Red Hot Chili Peppers">
+        <meta name="author" content="Amanda Ferraz">
+        <meta name="description" content="Reproduction of a wikipedia page of Red Hot Chili Peppers">
+
+        <!--Using Bootstrap to style the page-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -11,17 +13,20 @@
     </head>
     <body>
         <header>
+            <!--Table of contents that link to the sections-->
             <nav>
                 <ul>
-                   <li><a href="#1">Band</a></li>
+                   <li><a href="#1">Red Hot Chile Peppers</a></li>
                    <li><a href="#2">Musical style</a></li>
                    <li><a href="#3">Legacy</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <div class="card mb-3" style="max-width: 500px;">
+
+            <!--The code contains 3 sections with a heading styled using Bootstrap-->
+            <section id="1">
+                <div class="card mb-3" style="max-width: 300px;">
                     <div class="row g-2">
                       <div class="col-md-8">
                         <img src="https://th.bing.com/th/id/R.776d01ea7a5531750a345b53476b7c72?rik=cn%2fQ%2bpspSSR15Q&pid=ImgRaw&r=0" class="img-fluid rounded-start" alt="Red Hot Chili Peppers">
@@ -37,8 +42,8 @@
                   </div>
             </section>
 
-            <section>
-                <div class="card mb-3" style="max-width: 500px;">
+            <section id="2">
+                <div class="card mb-3" style="max-width: 300px;">
                     <div class="row g-2">
                       <div class="col-md-8">
                         <img src="https://th.bing.com/th/id/OIP.q-pjfoew0CfD1efAiagg0AHaFj?w=229&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="img-fluid rounded-start" alt="Red Hot Chili Peppers">
@@ -55,8 +60,8 @@
                   </div>
             </section>
 
-            <section>
-                <div class="card mb-3" style="max-width: 500px;">
+            <section id="3">
+                <div class="card mb-3" style="max-width: 300px;">
                     <div class="row g-2">
                       <div class="col-md-8">
                         <img src="https://timesofindia.indiatimes.com/thumb/msid-53153645,width-800,height-600,resizemode-4/53153645.jpg" class="img-fluid rounded-start" alt="Red Hot Chili Peppers">
@@ -73,6 +78,8 @@
                   </div>  
             </section>
         </main>
+
+        <!--Table of contents-->
         <table class="table table-striped">
             <thead>
               <tr>
@@ -92,6 +99,27 @@
                 <td>John Frusciante</td>
               </tr>
             </tbody>
-          </table>        
+          </table>
+
+        <footer>
+            <p class="text-center">Coded by <a href="https://github.com/AmandaTFerraz"><i class="fa-brands fa-github"></i>Amanda Ferraz</a>
+            </p>
+        </footer> 
+
     </body>
 </html>
+
+
+<!-- The code contains:
+ 1. a table of contents
+ 2. at least 3 article sections with a heading
+ 3. at least 3 illustrations/pictures
+ 4. some tabular information (contained in a table or a few)
+ 5. see also section at the end of the page
+** Use semantic tags when working with <body>’s direct children: <header>, <main>,
+<footer>
+** Use <nav> as a table of contents and populate it with links to sections (don’t forget to use
+a unique id attribute for each section and correct anchors with #) inside an unordered list
+** Use semantic constructs, such as <article>, <section>, <figure>, etc.
+** Ensure the table is correctly constructed and also has the appropriate semantic tags
+ -->
